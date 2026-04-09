@@ -1,0 +1,10 @@
+name: grid-energy-arbitrage
+version: "1.0.0"
+description: "Grid-scale battery storage arbitrage environment for RL agents"
+tasks:
+  - name: single-day-arbitrage
+    difficulty: easy
+  - name: weekly-demand-charge
+    difficulty: medium
+  - name: multi-battery-regulation
+    difficulty: hard
