@@ -7,11 +7,11 @@ name = "grid-energy-arbitrage"
 version = "1.0.0"
 requires-python = ">=3.10"
 dependencies = [
-    "openenv-core>=0.1.0",
-    "fastapi>=0.100.0",
-    "uvicorn>=0.23.0",
-    "pydantic>=2.0.0",
+    "openenv-core[core]>=0.2.2",
     "openai>=1.0.0",
+    "requests>=2.31.0",
+    "fastapi",
+    "uvicorn"
 ]
 
 [project.scripts]
